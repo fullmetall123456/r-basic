@@ -59,3 +59,5 @@ factorial(0)
 choose(5,3)
 
 choose(3,5)
+
+sqrt(81)
