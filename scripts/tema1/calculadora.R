@@ -113,3 +113,13 @@ f = function(x) {
 f(4) # 4^3 - 3^4 * sin(4)
 f(5)
 f(pi/2)
+
+product <- function(x,y,z) {
+  exp(x^2 + y^2) * sin(z)
+  }
+
+product(1,2,3)
+product(1,-1,pi)
+
+
+
