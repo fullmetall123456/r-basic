@@ -103,3 +103,13 @@ round(1.35,1)
 round(sqrt(2),0)
 
 floor(-3.5)
+
+## Función f(x) = x^3 - (3^x) * sin(x)
+
+f = function(x) { 
+  x^3 - (3^x) * sin(x)
+  }
+
+f(4) # 4^3 - 3^4 * sin(4)
+f(5)
+f(pi/2)
