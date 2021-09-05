@@ -61,3 +61,45 @@ choose(5,3)
 choose(3,5)
 
 sqrt(81)
+
+sqrt(125)
+
+5*(5+3/2)
+5*(5+3%%2)
+
+2*(3+5/2)
+
+cos(pi6)
+
+cos(60*pi/180)
+
+sin(60*pi/180)
+
+tan(pi)
+
+asin(0.8660254) #arc sin en radianes
+
+asin(0.8660254) * 180/pi #arc sin en grados 
+
+print(sqrt(2),10)
+
+round(sqrt(2), 3)
+
+floor(sqrt(2)) # floor es suelo
+ceiling(sqrt(2)) # ceiling es techo
+trunc(sqrt(2))
+
+sqrt(2)^2-2
+
+2^50
+print(2^50, 15 )
+
+round(sqrt(2), 4)^2
+
+round(1.15, 1)
+
+round(1.35,1)
+
+round(sqrt(2),0)
+
+floor(-3.5)
