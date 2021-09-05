@@ -121,5 +121,11 @@ product <- function(x,y,z) {
 product(1,2,3)
 product(1,-1,pi)
 
+suma5 = function(numero){numero = suma1(numero);numero = suma1(numero);numero = suma1(numero);numero = suma1(numero);suma1(numero)}
 
+suma5(1)
 
+g <- function(x,y,z) {
+  exp(x^2 + y^2) * sin(z)
+}
+g(1, 2, 3)
