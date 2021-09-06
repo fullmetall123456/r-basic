@@ -1,22 +1,22 @@
-#Resultado divisi贸n , en minutos
+# "Resultado divisi髇 , en minutos"
 250000000/60
-#Resultado divisi贸n cociente entero, en horas"
+# "Resultado divisi髇 cociente entero, en horas"
 4166667%/%60
 
-#Resultado divisi贸n , en minutos
+# "Resultado divisi髇 , en minutos"
 4166667%%60
 
 
-#Resultado divsi贸n cociente entero, en dias"
+# "Resultado divsi髇 cociente entero, en dias"
 69444%/%24
 
-#Resultado divisi贸n modulo o resto , horas"
+#Resultado divisi髇 modulo o resto , horas"
 69444%%24
 
-# "Resultado divisi贸n cociente entero, a帽os"
+# "Resultado divisi髇 cociente entero, a駉s"
 2893%/%365
 
-# "Resultado m贸dulo de la divisi贸n , dias"
+# "Resultado m骴ulo de la divisi髇 , dias"
 (2893%%365)-2
 
 
