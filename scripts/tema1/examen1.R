@@ -19,6 +19,8 @@
 # "Resultado módulo de la división , dias"
 (2893%%365)-2
 
+## Estaríamos en el 2 de diciembre de 2025 a las 12:27
+
 
 
 
