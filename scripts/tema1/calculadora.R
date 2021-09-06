@@ -129,3 +129,14 @@ g <- function(x,y,z) {
   exp(x^2 + y^2) * sin(z)
 }
 g(1, 2, 3)
+
+# invocar todas las variables
+ls()
+#eliminar una variable
+rm(suma5)
+
+ls()
+
+#eliminar todas las variables
+rm(list = ls())
+
