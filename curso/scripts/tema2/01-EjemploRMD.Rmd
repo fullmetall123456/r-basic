@@ -30,7 +30,15 @@ plot(pressure)
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 Vamos a calcular $\sqrt(2) - e^{2}$:        
-```{r miPrimeraChunk}
+```{r miPrimeraChunk, echo=TRUE}
 sqrt(2) - exp(-2)
 ```
+
+```{r magic, message=TRUE}
+library(magic)
+magic(6)
+
+```
+
+
 
