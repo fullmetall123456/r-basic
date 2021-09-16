@@ -40,5 +40,7 @@ magic(6)
 
 ```
 
+Cuando queremos hacer la raiz cuadrada de dos, podemos hacerlo:
 
+El número $\pi$ empieza por `r pi`.
 
