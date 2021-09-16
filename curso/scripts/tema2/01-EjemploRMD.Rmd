@@ -44,3 +44,15 @@ Cuando queremos hacer la raiz cuadrada de dos, podemos hacerlo:
 
 El número $\pi$ empieza por `r pi`.
 
+La raíz quinta de 32 es `r 32^(1/5)` o, lo que viene siendo lo mismo, $\sqrt[5]{64}=$ `r 32^(1/5)`.
+
+```{r prueba, results='hide',echo=FALSE}
+notas = c(3,5,7,7,9,10,4,7,9)
+media = mean(notas)
+n = length(notas)
+desv.tip = sd(notas)
+```
+
+Este año he hecho $n=$ `r n` examenes, con una media $\overline{x}=$ `r round(media,2)` y una desviación típica de $s=$ `r round(desv.tip,2)`.
+
+
