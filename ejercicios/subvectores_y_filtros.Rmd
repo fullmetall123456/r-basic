@@ -1,0 +1,86 @@
+---
+title: "Subvectores y filtros"
+author: "Curso de Estadistica Descriptiva"
+date: "21/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+x = seq(3,50, by= 3.5)
+#para saber en la posición 3 que elemento está []
+x[3]
+#para saber la última posición
+x[length(x)]
+# para saber la penúltima posición -1
+x[length(x)-1]
+# para saber la ante/penúltima posición -2
+x[length(x)-2]
+#devuelve la entra menos el 3
+x[-3]
+#para devolver del cuarto al 8
+x[4:8]
+#para devolver el vetor hacia atrás
+x[8:4]
+#obtener lo que están en posición par
+x[seq(2, length(x), by =2 )]
+#obtener lo que están en posición impar
+x[seq(1, length(x), by =2 )]
+#eliminar la secuencia par para que quede impar
+x[-seq(2, length(x), by =2 )]
+#últimos 4 
+x[(length(x)-3):length(x)]
+#filtrar para saber quien está en la posición 1,5,6
+x[c(1,5,6)]
+#de x dame las que son mas grandes que 30
+x[x>30]
+#mas grandes que 20 y menores que 40
+x[x>20 & x <40]
+#x diferente de 3 y x diferente de 17
+x[x!=3 & x!=17]
+#definir una condición u otra
+x[x<10|x>40]
+#mayor o igual que 10
+x[x>=10]
+#decir lo contrario.......(!< es el >=), (!> es el <=)
+x[!x<10]
+#menor o igual que 10
+x[x<=10]
+#decir lo contrario ,(!> es el <=)
+x[!x>10]
+#números pares
+x[x%%2==0]
+#números impares
+x[x%%2==1]
+
+#ubica las posiciones de los numeros mayores que 4
+which(x>4)
+#me da los elementos
+x[which(x>4)]
+#mayor que cuatro
+x[x>4]
+#
+which(x >2 & x<8)
+# posición x menores que 5 y números pares 
+which(x < 5 | x%%2==0)
+#quienes son esos números
+x[which(x < 5 | x%%2==0)]
+#para ubicar el elemento mas pequeño
+which.min(x)
+#si hubiera mas de uno mas pequeño
+which(x == min(x))
+#elemento mas grande
+which.max(x)
+#si hay mas elementos
+which(x == max(x))
+#elementos mas grandes
+which(x == max(x))
+
+##Valor no conocido (NULL)
+
+
+
+
+
