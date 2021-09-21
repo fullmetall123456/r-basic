@@ -32,6 +32,7 @@ binomioNewton = function(a,b,n){
   cumsum(choose(n,(0:n))*a^{n-(0:n)}*b^(0:n))[n+1]
 }
 binomioNewton(2,1,2)
+binomioNewton(3,4,14)
 ```
 
 
