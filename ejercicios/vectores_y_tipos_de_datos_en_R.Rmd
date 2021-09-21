@@ -1,0 +1,28 @@
+---
+title: "Vectores y tipos de datos en R"
+author: "Curso de Estadistica Descriptiva"
+date: "21/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#Vectores
+c(2,TRUE, 3.5)
+# vector guaradada en una variable
+
+x <- c(1,2,3)
+#fix(x)
+x
+# tipo de datos
+class(x)
+#se pega la url en scan , tambien sirve para ficheros locales
+
+c(28)
+rep(c(28),5)
+
+
+
+
+
