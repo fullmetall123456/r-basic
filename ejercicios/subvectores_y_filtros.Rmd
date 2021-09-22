@@ -22,7 +22,7 @@ x[length(x)-2]
 x[-3]
 #para devolver del cuarto al 8
 x[4:8]
-#para devolver el vetor hacia atrás
+#para devolver el vector hacia atrás
 x[8:4]
 #obtener lo que están en posición par
 x[seq(2, length(x), by =2 )]
