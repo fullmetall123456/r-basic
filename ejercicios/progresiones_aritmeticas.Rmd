@@ -1,0 +1,36 @@
+---
+title: "Progresiones y secuencias artimeticas"
+author: "Curso de Estadistica Descriptiva"
+date: "21/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+seq(5,60, by = 3.5)
+#decreciente
+
+seq(100,6, by = -9)
+
+seq(4,35, length.out = 7)
+
+seq(4, length.out = 7, by = 3)
+#Números consecutivos
+1:10
+
+-2:5
+#no es lo mismo hacer-()
+-(2:4)
+
+#Número del 1 al 20
+1:20
+#Numeros pares de los 20 primeros números
+seq(2,20, by = 2)
+#concatenar
+c(rep(pi,5), 5:10, -7) -> x
+
+c(0,x,10,x,20)
+fix(x)
+
