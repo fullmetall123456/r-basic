@@ -2,7 +2,9 @@
 title: "Subvectores y filtros"
 author: "Curso de Estadistica Descriptiva"
 date: "21/9/2021"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -10,18 +12,31 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 x = seq(3,50, by= 3.5)
+
 #para saber en la posición 3 que elemento está []
+
 x[3]
+
 #para saber la última posición
+
 x[length(x)]
+
 # para saber la penúltima posición -1
+
 x[length(x)-1]
+
 # para saber la ante/penúltima posición -2
+
 x[length(x)-2]
+
 #devuelve la entra menos el 3
+
 x[-3]
+
 #para devolver del cuarto al 8
+
 x[4:8]
+
 #para devolver el vector hacia atrás
 x[8:4]
 #obtener lo que están en posición par
