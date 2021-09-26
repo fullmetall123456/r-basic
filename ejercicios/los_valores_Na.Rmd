@@ -1,0 +1,92 @@
+---
+title: "prueba"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE ,eval = TRUE)
+```
+
+2^pi > pi^2
+
+12345678%%9 == 0
+
+12345678/9
+
+length(1:100) >4
+
+x = 1:10
+x[3]
+x[3] = 32
+x
+x[11] = 15
+x[2:5] = x[2:5] + 3 
+x
+
+x[(length(x)-2):length(x)] = 0
+x
+
+x[length(x) + 5] = 9
+x
+
+cumsum(x)
+
+#Parametro para poder hacer operaciones con NA
+
+sum(x, na.rm =TRUE)
+
+mean(x, na.rm =TRUE)
+
+#EXTRAER ENTRADAS 
+
+which(x == NA)
+
+#Devuelve las entradas que contiene NA 
+is.na(x)
+
+# en que posiciones tenemos NA
+which(is.na(x))
+
+# Para consultar los valores
+x[which(is.na(x))]
+
+#Hcer una copia de x
+y = x
+y
+
+#Para que me de los elementos NA
+
+y[is.na(y)]
+
+#Para cambiar los NA
+y[is.na(y)] =mean(y, na.rm=TRUE)
+y
+
+#numeros que no son Na
+x[!is.na(x)]
+
+#Calcular esos numeros
+
+sum(x[!is.na(x)])
+
+#funciona para cumsum
+
+cumsum(x[!is.na(x)])
+
+#Borrar na (no se recomienda)
+
+na.omit(x)
+
+sum(na.omit(x))
+cumsum(na.omit(x))
+
+x_clean = na.omit(x)
+x_clean
+
+attr(x_clean,"na.action") = NULL
+x_clean
+
+
